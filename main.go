@@ -197,7 +197,6 @@ func main() {
 				}
 			case "end":
 				fmt.Print("\n", name, "\nTotal earned: ", total, "\nTime: ", conv(time))
-				done <- "5"
 				return
 			}
 		}
